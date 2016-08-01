@@ -8,9 +8,9 @@
 
 echo "Installing Avidemux"
 
-echo "" >> /etc/apt/sources.list
-echo "# GetDeb" >> /etc/apt/sources.list
-echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list
+tee /etc/apt/sources.list <<< ""
+tee /etc/apt/sources.list <<< "# GetDeb"
+tee /etc/apt/sources.list <<< "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps"
 
 wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 
