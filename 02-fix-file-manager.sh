@@ -9,17 +9,17 @@
 echo "Installing Nemo file manager"
 
 add-apt-repository ppa:webupd8team/nemo
-sudo add-apt-repository ppa:rabbitvcs/ppa
 apt update
 yes | apt install nemo nemo-fileroller
 
 yes | apt install nemo-compare nemo-dropbox nemo-media-columns nemo-pastebin  \\
 nemo-seahorse nemo-share nemo-emblems nemo-image-converter nemo-audio-tab
 
-# This extension has not been released yet
-apt install nemo-rabbitvcs
+# RabbitVCS: this extension has not been released yet
+# add-apt-repository ppa:rabbitvcs/ppa
+# yes | apt install nemo-rabbitvcs
 
-# Set Nemo as default file manager (untested)
+# Set Nemo as default file manager
 # Reference:
 # http://www.fandigital.com/2013/01/set-nemo-default-file-manager-ubuntu.html
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
