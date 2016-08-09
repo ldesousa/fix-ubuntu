@@ -8,3 +8,4 @@
 ./03-fix-document-reader.sh
 ./04-tooling.sh
 ./05-fix-video-editor.sh
+./06-fix-video-player.sh
