@@ -10,6 +10,6 @@ echo "Installing Arc Dark theme."
 
 add-apt-repository ppa:noobslab/themes
 apt update
-apt install arc-theme
+yes | apt install arc-theme
 
 # ToDo: automatically set this theme by default

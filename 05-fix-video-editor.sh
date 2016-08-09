@@ -14,4 +14,4 @@ tee /etc/apt/sources.list <<< "deb http://archive.getdeb.net/ubuntu xenial-getde
 
 wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 
-apt install avidemux2.6-qt
+yes | apt install avidemux2.6-qt

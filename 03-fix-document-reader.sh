@@ -4,7 +4,7 @@
 # Date: 01-08-2016
 
 echo "Installing Okular"
-apt install okular
+yes | apt install okular
 
 # ToDo: set Okular as default.
 # Reference:

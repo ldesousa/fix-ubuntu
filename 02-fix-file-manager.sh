@@ -11,9 +11,9 @@ echo "Installing Nemo file manager"
 add-apt-repository ppa:webupd8team/nemo
 sudo add-apt-repository ppa:rabbitvcs/ppa
 apt update
-apt install nemo nemo-fileroller
+yes | apt install nemo nemo-fileroller
 
-apt install nemo-compare nemo-dropbox nemo-media-columns nemo-pastebin  \\
+yes | apt install nemo-compare nemo-dropbox nemo-media-columns nemo-pastebin  \\
 nemo-seahorse nemo-share nemo-emblems nemo-image-converter nemo-audio-tab
 
 # This extension has not been released yet
