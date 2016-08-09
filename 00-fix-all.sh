@@ -9,3 +9,4 @@
 ./04-tooling.sh
 ./05-fix-video-editor.sh
 ./06-fix-video-player.sh
+./07-fix-image-viewer.sh
