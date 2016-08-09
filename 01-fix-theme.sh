@@ -12,4 +12,6 @@ add-apt-repository ppa:noobslab/themes
 apt update
 yes | apt install arc-theme
 
-# ToDo: automatically set this theme by default
+# Automatically set this theme by default
+# If it does not work change manually with Unity Tweak
+gsettings set org.gnome.desktop.interface gtk-theme "Arc-dark"
