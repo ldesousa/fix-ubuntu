@@ -8,7 +8,7 @@
 
 echo "Installing Arc Dark theme."
 
-add-apt-repository ppa:noobslab/themes
+echo | add-apt-repository ppa:noobslab/themes
 apt update
 yes | apt install arc-theme
 

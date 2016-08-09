@@ -8,7 +8,7 @@
 
 echo "Installing Nemo file manager"
 
-add-apt-repository ppa:webupd8team/nemo
+echo | add-apt-repository ppa:webupd8team/nemo
 apt update
 yes | apt install nemo nemo-fileroller
 
@@ -16,7 +16,7 @@ yes | apt install nemo-compare nemo-dropbox nemo-media-columns nemo-pastebin  \\
 nemo-seahorse nemo-share nemo-emblems nemo-image-converter nemo-audio-tab
 
 # RabbitVCS: this extension has not been released yet
-# add-apt-repository ppa:rabbitvcs/ppa
+# echo | add-apt-repository ppa:rabbitvcs/ppa
 # yes | apt install nemo-rabbitvcs
 
 # Set Nemo as default file manager
