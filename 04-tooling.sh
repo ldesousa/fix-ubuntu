@@ -5,4 +5,4 @@
 
 echo | apt-add-repository ppa:freyja-dev/unity-tweak-tool-daily
 apt update
-yes | apt install htop git git-gui aptitude unity-tweak-tool clipit
+yes | apt install htop git git-gui aptitude unity-tweak-tool clipit indicator-multiload
