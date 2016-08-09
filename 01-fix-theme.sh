@@ -15,3 +15,7 @@ yes | apt install arc-theme
 # Automatically set this theme by default
 # If it does not work change manually with Unity Tweak
 gsettings set org.gnome.desktop.interface gtk-theme "Arc-dark"
+
+# Fix workspaces - perhaps numbers should be asked from the user.
+dconf write /org/compiz/profiles/unity/plugins/core/hsize 2
+dconf write /org/compiz/profiles/unity/plugins/core/vsize 2
