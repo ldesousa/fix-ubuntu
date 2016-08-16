@@ -112,6 +112,23 @@ not included in the stock Ubuntu 16.04 image.
 These plug-ins must be activated manually, accessing the dialogue: *Edit* > 
 *Preferences* > *Plugins*.
 
+Instructions
+------------
+
+This set of scripts can be downloaded from GitHub as 
+[a compressed archive](https://github.com/ldesousa/fix-ubuntu/archive/master.zip) 
+or checked out directly with git:
+
+`git clone https://github.com/ldesousa/fix-ubuntu.git fix-ubuntu`
+
+Since these scripts install software and change default applications, they must 
+be run with `sudo` privileges. E.g.:
+
+`sudo sh ./00-fix-all.sh`
+
+The same for a single script:
+
+`sudo sh ./06-fix-video-player.sh`
 
 Licence
 -------
