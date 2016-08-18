@@ -74,7 +74,7 @@ image:
  - [git](https://git-scm.com/) (including its GUI)
  - [aptitude](https://wiki.debian.org/Aptitude) 
  - [Unity Tweak Tool](https://launchpad.net/unity-tweak-tool)
- - [ClipIt](https://sourceforge.net/projects/gtkclipit/)
+ - [Diodon](https://wiki.ubuntu.com/Diodon)
  - [System Load Indicator](https://launchpad.net/indicator-multiload)
 
 05-fix-video-editor.sh
