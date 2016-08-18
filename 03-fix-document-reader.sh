@@ -6,7 +6,14 @@
 echo "Installing Okular"
 yes | apt install okular
 
-# ToDo: set Okular as default - the line below is not working...
+# Associate okular with document file types
 # Reference:
-# http://askubuntu.com/questions/805573/how-to-set-the-default-document-reader-in-ubuntu-16-04
-xdg-mime default okular.desktop application/pdf
+# http://askubuntu.com/a/607919/177437
+if [ -e ~/.local/share/applications/defaults.list ]
+then
+	echo "The file exists"
+	sed 's/evince/okular/' ~/.local/share/applications/defaults.list > ~/.local/share/applications/defaults.list
+else
+	echo "The file does not exist"
+	sed 's/evince/okular/' /usr/share/applications/defaults.list > ~/.local/share/applications/defaults.list
+fi

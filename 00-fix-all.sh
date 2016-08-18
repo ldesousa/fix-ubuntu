@@ -10,3 +10,4 @@
 ./05-fix-video-editor.sh
 ./06-fix-video-player.sh
 ./07-fix-image-viewer.sh
+./08-fix-file-editor.sh

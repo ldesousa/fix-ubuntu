@@ -3,6 +3,8 @@
 # Author: Luís de Sousa (luis.de.sousa[@]protonmail.ch)
 # Date: 01-08-2016
 
+echo "Installing usefull tools"
+
 echo | add-apt-repository ppa:diodon-team/stable
 apt update
 yes | apt install htop git git-gui aptitude unity-tweak-tool diodon indicator-multiload
