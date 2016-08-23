@@ -11,3 +11,4 @@
 ./06-fix-video-player.sh
 ./07-fix-image-viewer.sh
 ./08-fix-file-editor.sh
+./09-fix-audio-player.sh

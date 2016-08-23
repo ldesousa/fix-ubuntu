@@ -112,6 +112,16 @@ not included in the stock Ubuntu 16.04 image.
 These plug-ins must be activated manually, accessing the dialogue: *Edit* > 
 *Preferences* > *Plugins*.
 
+09-fix-audio-player.sh
+----------------------
+
+The default audio player in Ubuntu is Rhythmbox, a stout programme that has 
+sticked to a same user interface for many years. However, in Ubuntu 16.04 it is
+some functionality, like scrobbling to services such as Last.fm. This script 
+installs [Sayonara](http://sayonara-player.com) is a modern audio player, 
+focused on library browsing and management, providing a large plethora of 
+features.
+
 Instructions
 ------------
 
