@@ -22,7 +22,7 @@ improving the visual quality of the interface, greatly increase productivity.
 However, in subsequent releases the core applications shipped with Ubuntu (e.g.
 file browser, document reader, media player, file editor) have been greatly
 eroded, with a large number of features consistently removed. When Ubuntu 16.04
-was released most of these applications are practically unusable.
+was released most of these applications were practically unusable.
 
 This set of scripts automates a number of tasks that became mandatory after a
 fresh Ubuntu 16.04 install. It sets up a number of applications that retain the
@@ -88,7 +88,7 @@ heretofore.
 ----------------------
 
 Totem has been the default video player on Ubuntu since its early days. 
-Unfortunately important functionality was removed between Ubuntu 14.04 and 
+Unfortunately, important functionality was removed between Ubuntu 14.04 and 
 16.04. This scripts installs [xPlayer](https://github.com/linuxmint/xplayer) a 
 Totem fork preserving all its functionalities.
 
@@ -116,10 +116,10 @@ These plug-ins must be activated manually, accessing the dialogue: *Edit* >
 ----------------------
 
 The default audio player in Ubuntu is Rhythmbox, a stout programme that has 
-sticked to a same user interface for many years. However, in Ubuntu 16.04 it is
+sticked to a same user interface for many years. However, in Ubuntu 16.04 it lacks
 some functionality, like scrobbling to services such as Last.fm. This script 
-installs [Sayonara](http://sayonara-player.com) is a modern audio player, 
-focused on library browsing and management, providing a large plethora of 
+installs [Sayonara](http://sayonara-player.com), a modern audio player, 
+focused on library browsing and management and providing a large plethora of 
 features.
 
 Instructions
