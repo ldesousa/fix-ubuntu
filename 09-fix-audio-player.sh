@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Author: Luís de Sousa (luis.de.sousa[@]protonmail.ch)
 # Date: 23-08-2016

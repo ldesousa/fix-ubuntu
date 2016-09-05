@@ -134,11 +134,11 @@ or checked out directly with git:
 Since these scripts install software and change default applications, they must 
 be run with `sudo` privileges. E.g.:
 
-`sudo sh ./00-fix-all.sh`
+`sudo bash ./00-fix-all.sh`
 
 The same for a single script:
 
-`sudo sh ./06-fix-video-player.sh`
+`sudo bash ./06-fix-video-player.sh`
 
 Licence
 -------
