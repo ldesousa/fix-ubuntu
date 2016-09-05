@@ -9,7 +9,7 @@ echo | add-apt-repository ppa:diodon-team/stable
 apt update
 yes | apt install htop git git-gui aptitude unity-tweak-tool diodon indicator-multiload
 
-echo "If Diodon is not recording the clipboard checkout this link:"
+echo "If Diodon is not recording the clipboard check this link:"
 echo "https://esite.ch/2014/08/why-does-diodon-not-save-anything-to-the-clipboard-history/"
 echo
 echo "To set up a shortcut for Diodon follow these instructions:"

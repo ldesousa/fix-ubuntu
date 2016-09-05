@@ -53,7 +53,7 @@ perfectly with Unity.
 Ubuntu ships with Nautilus, a file browser that lost a great deal of
 functionality and graphical agility some years ago. This script installs 
 [Nemo](https://github.com/linuxmint/nemo), a fork of the last fully functional 
-Nautilus release (3.8) that has itself been developed further.
+Nautilus release (3.8) that has been developed further.
 
 03-fix-document-reader.sh
 -------------------------
@@ -116,7 +116,7 @@ These plug-ins must be activated manually, accessing the dialogue: *Edit* >
 ----------------------
 
 The default audio player in Ubuntu is Rhythmbox, a stout programme that has 
-sticked to a same user interface for many years. However, in Ubuntu 16.04 it lacks
+stick to the same user interface for many years. However, in Ubuntu 16.04 it lacks
 some functionality, like scrobbling to services such as Last.fm. This script 
 installs [Sayonara](http://sayonara-player.com), a modern audio player, 
 focused on library browsing and management and providing a large plethora of 
