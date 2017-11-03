@@ -8,12 +8,14 @@
 
 echo "Installing Nemo file manager"
 
-echo | add-apt-repository ppa:webupd8team/nemo
+echo | add-apt-repository ppa:webupd8team/nemo3
 apt update
-yes | apt install nemo nemo-fileroller
+yes | apt install nemo nemo
 
 yes | apt install nemo-compare nemo-dropbox nemo-media-columns nemo-pastebin  \\
-nemo-share nemo-emblems nemo-image-converter nemo-audio-tab
+nemo-gtkhash nemo-hide nemo-rabbitvcs nemo-emblems nemo-image-converter
+
+yes | apt install nemo-share nemo-seahorse nemo-audio-tab
 
 # RabbitVCS: this extension has not been released yet
 # echo | add-apt-repository ppa:rabbitvcs/ppa
