@@ -16,7 +16,9 @@ echo ""
 
 if [ $# -eq 0 ]
   then
-    echo "Please provide the path to Eclipse package."
+  	echo
+    echo "ERROR: Please provide the path to Eclipse package. E.g.:"
+    echo "sudo sh ./25-add-eclispe.sh /home/user/eclipse.zip"
 	exit
 fi
 
