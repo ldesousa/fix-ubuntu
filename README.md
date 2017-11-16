@@ -116,11 +116,63 @@ These plug-ins must be activated manually, accessing the dialogue: *Edit* >
 ----------------------
 
 The default audio player in Ubuntu is Rhythmbox, a stout programme that has 
-stick to the same user interface for many years. However, in Ubuntu 16.04 it lacks
+stuck to the same user interface for many years. However, in Ubuntu 16.04 it lacks
 some functionality, like scrobbling to services such as Last.fm. This script 
 installs [Sayonara](http://sayonara-player.com), a modern audio player, 
-focused on library browsing and management and providing a large plethora of 
+focused on library browsing and management and providing a plethora of 
 features.
+
+10-fix-notes.sh
+---------------
+Since the Ubuntu One service was brought offline notes must be synchronised 
+with a service like [ownCloud](https://owncloud.org/). This script installs 
+[Tomboy](https://wiki.gnome.org/Apps/Tomboy) and the ownCloud client linking 
+the two using environment variables. This way any modifications to your notes 
+are automatically synchronised with the cloud. If you wish to use an alternative 
+service please install it manually before using this script.
+
+Additional scripts
+------------------
+
+These scripts reflect my software needs, not particular issues with Ubuntu. They 
+are not run automatically by the fix-all script.
+
+21-add-spotify.sh
+-----------------
+
+Installs the famous [Spotify]() music streaming client. Since it hiked the quality 
+of its streams it became an undispensable Audiophile's tool.
+
+22-add-messaging.sh
+-------------------
+
+Installs modern communication tools:
+ - [Telegram](https://telegram.org/)
+ - [GNU Ring](https://ring.cx/)
+ - [Skype for Linux](https://www.skype.com/en/get-skype/)
+ 
+23-add-dropbox.sh
+-----------------
+
+Adds the clients for the ancient free cloud service 
+[Dropbox](https://www.dropbox.com). 
+
+24-add-java.sh
+-----------------
+
+Installs [Oracle Java 8](https://docs.oracle.com/javase/8/) from the 
+[WebUpd8 PPA](https://launchpad.net/~nilarimogard/+archive/ubuntu/webupd8). I 
+can not use [OpenJDK](http://openjdk.java.net/), some of the libraries I need do 
+not play well with it. Java 9 is already out as stable, but some programmes are 
+not able to take it yet.
+
+25-add-eclipse.sh
+-----------------
+[Eclipse](https://www.eclipse.org) is by far the most useful programme I use. 
+Programming, writing, making presentations, versioning, Eclipse supports almost 
+my entire workflow. It is also one of the trickiest programmes to install on 
+Ubuntu; this script performs the complete process, given a pre-dowloaded Eclipse 
+package.  
 
 Instructions
 ------------

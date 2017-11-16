@@ -12,3 +12,8 @@
 ./07-fix-image-viewer.sh
 ./08-fix-file-editor.sh
 ./09-fix-audio-player.sh
+./10-fix-notes.sh
+
+echo
+echo All fix scripts completed. You may now check the additional scripts: 
+echo ll 2?-add-*.sh
